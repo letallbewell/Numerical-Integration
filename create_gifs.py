@@ -11,7 +11,7 @@ abbrv2method = {
     'rr':'Right Point Rule',
     'mr':'Mid Point Rule',
     'tr':'Trapezoidal Rule',
-    'sr':'Secant Rule'
+    'sr':'Simpsons Rule'
 }
 
 for method in tqdm(['lr','rr','mr','tr','sr']):
